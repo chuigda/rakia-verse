@@ -1,0 +1,5 @@
+rakia-verse-package.xml
+dist.xml
+**/__pycache__
+**/.claude
+_sessions

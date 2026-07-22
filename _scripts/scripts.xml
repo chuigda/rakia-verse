@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scripts>
+  <script id="script.check-xml" href="check_xml.py">
+    <summary>
+      A script to check the XML files in this repository for XML well-formedness,
+      counting Chinese characters and English words in XML files, generating a summary report.
+    </summary>
+    <usage>
+      python projectdir/_scripts/check_xml.py [path]
+      [path] can be a directory or a single XML file.
+      If [path] is omitted, the script will check all XML files in the repository.
+    </usage>
+    <example>
+      python projectdir/_scripts/check_xml.py
+      python projectdir/_scripts/check_xml.py faiths
+      python projectdir/_scripts/check_xml.py faiths/faran.xml
+    </example>
+  </script>
+
+  <script id="script.package" href="package.py">
+    <summary>
+      A script to package all the XML document files into a single XML file, which can be used for
+      distribution purposes. The script will resolve all XInclude references and generate a single
+      XML file containing all the XML textual content of the repository. Additional files still
+      need to be included manually, such as images and other non-XML files.
+    </summary>
+    <usage>
+      python projectdir/_scripts/package.py [output_file]
+      [output_file] is the name of the output XML file. If omitted, the default name is
+      "rakia-verse-package.xml".
+    </usage>
+    <example>
+      python projectdir/_scripts/package.py
+      python projectdir/_scripts/package.py dist.xml
+    </example>
+  </script>
+</scripts>

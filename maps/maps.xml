@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maps>
+  <map id="map.svg" type="borders" href="map-borders.svg" />
+
+  <group id="maps.fullscale" width="4500" height="4254" pixel="6km">
+    <map id="map.borders" type="borders" href="map.png" />
+    <map id="map.borders-1px" type="borders" href="map-borders-1px.png" />
+    <map id="map.terrain" type="terrain" href="map-terrain.png" />
+  </group>
+</maps>
