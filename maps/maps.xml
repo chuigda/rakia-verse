@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <maps>
-  <map id="map.svg" type="borders" href="map-borders.svg" />
+  <map id="map.svg" type="borders" href="map.svg" />
 
   <group id="maps.fullscale" width="4500" height="4254" pixel="6km">
     <map id="map.borders" type="borders" href="map.png" />
-    <map id="map.borders-1px" type="borders" href="map-borders-1px.png" />
+    <map id="map.borders-1px" type="borders" href="map-borders-1x.png" />
     <map id="map.terrain" type="terrain" href="map-terrain.png" />
+  </group>
+
+  <group id="maps.doublescale" width="9000" height="8508" pixel="3km">
+    <map id="map.borders-2x" type="borders" href="map-borders-2x.png" />
   </group>
 </maps>

@@ -3,13 +3,14 @@
   <metadata>
     <author><a href="mailto:chuigda@doki7.club">Chuigda Whitegive</a></author>
     <author><a href="mailto:alex@ckx-ily.cn">Cousin Ze</a></author>
-    <author>Anthropic Claude</author>
-    <author>OpenAI ChatGPT</author>
-    <author>DeepSeek</author>
 
-    <co-author contrib="地图创作">
+    <co-author contrib="地图绘制">
       <a href="https://huajia.163.com/main/profile/5rloJx4E">孤桥寂雪</a>
     </co-author>
+
+    <co-author>Anthropic Claude</co-author>
+    <co-author>OpenAI ChatGPT</co-author>
+    <co-author>DeepSeek</co-author>
 
     <edition>pre-alpha</edition>
     <language id="zh_CN">简体中文</language>

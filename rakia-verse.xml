@@ -29,7 +29,7 @@
     目前使用最广泛的历法系统是人类历法。
     该历法规定每年共 360 天，分为 15 个月，每月 24 天。
     在此基础上，大部分历法的规则相同，区别仅在于起始年份选在哪一年。
-    例如，最常用的王国历 (KC) 以人类联合王国的建立为起点 (1KC)。
+    例如，最常用的王国历 (KC) 以人类联合王国（索利斯王朝）的建立为起点 (1KC)。
   </summary>
 
   <meta-physics>
@@ -143,7 +143,8 @@
     <xi:include href="history/timeline.xml" comment="时间线" />
 
     <events>
-      <xi:include href="history/event_bk1438_hijrah.xml" comment="迁徙" />
+      <xi:include href="history/event_bk1293_creation.xml" comment="造人" />
+      <xi:include href="history/event_bk938_hijrah.xml" comment="迁徙" />
       <xi:include href="history/event_kc0325_catastrophe.xml" comment="索尔穆恩之殇" />
     </events>
 

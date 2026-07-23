@@ -21,6 +21,11 @@
     for archival reference only.
   </dir>
 
+  <dir id="underlined.rakv_proto" href="rakv_proto/">
+    Experimental strategy game prototype based on the Rakia Verse world building, inspired by
+    _Battle for Wesnoth_.
+  </dir>
+
   <dir id="underlined.kuiter" href="kuiter/">
     Kuiter is another fictional worldbuilding project that is not part of the main Rakia Verse
     canon. It contains its own lore, characters, and settings, and should be treated as a
