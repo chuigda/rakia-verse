@@ -1,19 +1,13 @@
 from typing import List
-
+from abc import abstractmethod
 from .coin import Coin
 from .species import DamageKind
+from .unit import Unit
 
 
 class Capability:
     """
     单位能力基类。
-
-    Attributes:
-        type: 能力类型标识。
-        id: 能力唯一 ID。
-        prerequests: 前置能力列表。
-        xp_cost: 学习所需经验值，`None` 表示不可通过经验学习。
-        coin_cost: 学习所需货币花费。
     """
 
     def __init__(self,
@@ -29,21 +23,36 @@ class Capability:
         self.xp_cost = xp_cost
         self.coin_cost = coin_cost
 
+    @property
     def learnable(self) -> bool:
         """判断该能力是否可学习（所有前置已满足且有经验花费）。"""
-        return all(p.learnable() for p in self.prerequests) and (self.xp_cost is not None)
+        return all(p.learnable for p in self.prerequests) and (self.xp_cost is not None)
+
+
+class OnBeforeLevelUp(Capability):
+    @abstractmethod
+    def on_before_level_up(self, unit: Unit):
+        """单位升级时触发的能力效果。"""
+        pass
+
+
+class OnAfterLevelUp(Capability):
+    @abstractmethod
+    def on_after_level_up(self, unit: Unit):
+        """单位升级后触发的能力效果。"""
+        pass
+
+
+class OnCapabilityLearned(Capability):
+    @abstractmethod
+    def on_capability_learned(self, unit: Unit, capability: Capability):
+        """单位学习该能力时触发的效果。"""
+        pass
 
 
 class AttackCapability(Capability):
     """
-    攻击类能力，包含近战/远程攻击属性。
-
-    Attributes:
-        ranged: 是否为远程攻击。
-        strike: 命中修正值。
-        damage: 伤害值。
-        damage_type: 伤害类型。
-        specials: 特殊效果列表。
+    攻击类能力。
     """
 
     def __init__(self,

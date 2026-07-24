@@ -4,25 +4,6 @@ from enum import Enum
 class Terrain(Enum):
     """
     地形类型枚举，影响单位移动力和防御修正。
-
-    Members:
-        IMPASSABLE: 不可通过（洞穴墙壁）。
-        UNWALKABLE: 不可行走（深渊、熔岩）。
-        MOUNTAINS: 山脉。
-        HILLS: 丘陵。
-        CAVE: 洞穴（地下）。
-        FUNGUS: 蘑菇（菌类地形）。
-        FOREST: 森林。
-        FLAT: 平地（草地、道路等）。
-        RAILS: 铁轨。
-        CASTLE: 城堡。
-        VILLAGE: 村庄。
-        FROZEN: 冰冻（雪地、冰面）。
-        SAND: 沙地（沙漠）。
-        SWAMP: 沼泽。
-        COASTAL_REEF: 沿岸礁石。
-        SHALLOW_WATER: 浅水。
-        DEEP_WATER: 深水。
     """
 
     IMPASSABLE = 0       # 不可通过（洞穴墙壁）
@@ -47,17 +28,6 @@ class Terrain(Enum):
 class DamageKind(Enum):
     """
     伤害类型枚举，用于计算抗性。
-
-    Members:
-        SLASH: 劈砍。
-        PIERCE: 穿刺。
-        IMPACT: 冲击。
-        FIRE: 火焰。
-        ICE: 冰寒。
-        ACID: 强酸。
-        POISON: 毒素。
-        ARCANE: 奥术。
-        REAL: 真实伤害（无视抗性）。
     """
 
     SLASH  = 0 # 劈砍
@@ -74,13 +44,22 @@ class DamageKind(Enum):
 class UnitStatus(Enum):
     """
     单位状态枚举，用于表示单位当前的异常状态。
-
-    Members:
-        POISONED: 中毒。
-        BURNING: 灼烧。
     """
-    POISONED = 0 # 中毒
-    BURNING = 1 # 灼烧
+    POISONED = 0x01 # 中毒
+    BURNING  = 0x02 # 灼烧
+    SLOWED   = 0x04 # 减速
+    STUNNED  = 0x08 # 定身
+
+
+class AttackSpecial(Enum):
+    """
+    攻击特殊效果枚举，用于表示攻击的特殊属性。
+    """
+    NONE   = 0x00 # 无特殊效果
+    POISON = 0x01 # 中毒效果
+    BURN   = 0x02 # 灼烧效果
+    SLOW   = 0x04 # 减速效果
+    STUN   = 0x08 # 定身效果
 
 
 DEFAULT_MOVEMENT_LIST = [

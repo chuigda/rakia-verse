@@ -6,7 +6,7 @@
       以优秀的韧性和适中的硬度著称，是衡量奇幻金属性能的常用基准。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 7 Mohs (≈58-62 HRC)
       density = 7.85 g/cm³
       melting-point = 1500 °C
@@ -27,7 +27,7 @@
       代价是研磨较困难，且硅使淬火脱碳风险增大，热处理需格外注意。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 7 Mohs (≈58-60 HRC)
       density = 7.85 g/cm³
       melting-point = 1500 °C
@@ -46,7 +46,7 @@
       淬火后硬度极高、刃口锋利持久，但韧性不如弹簧钢，适合切割类刀具，不适合承受大幅度横向冲击。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 7.5 Mohs (≈60-65 HRC)
       density = 7.85 g/cm³
       melting-point = 1490 °C
@@ -65,7 +65,7 @@
       镍含量约 2% 赋予其抗腐蚀性和抛光后的亮白色泽，韧性优秀但硬度不及高碳钢，几乎从不单独使用。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 6.5 Mohs (≈40-45 HRC)
       density = 7.87 g/cm³
       melting-point = 1510 °C
@@ -85,7 +85,7 @@
       热处理窗口宽容，研磨性好，综合表现优异。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 7.5 Mohs (≈60-63 HRC)
       density = 7.83 g/cm³
       melting-point = 1500 °C
@@ -105,7 +105,7 @@
       日本传统刀匠使用的玉钢（Tamahagane）在成分上与 W2 相近，是理解历史锻造工艺的重要参照。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 7.5 Mohs (≈62-66 HRC 表面)
       density = 7.85 g/cm³
       melting-point = 1490 °C
@@ -126,7 +126,7 @@
       <del>断刀大赛</del>锻刀大赛里的“铁路道钉挑战”用的就是这类材料。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 6 Mohs (≈45-50 HRC)
       density = 7.85 g/cm³
       melting-point = 1510 °C
@@ -149,7 +149,7 @@
       <!-- It will not keel. —— Doug Marcaida -->
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 5.5 Mohs (≈35-50 HRC，视类型)
       density = 7.2 g/cm³
       melting-point = 1150 °C
@@ -171,7 +171,7 @@
       在现代<del>断刀大赛</del>锻刀大赛中可作为三枚合的“软芯”或装饰性锻焊素材。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 4.5 Mohs (≈80-120 HB)
       density = 7.7 g/cm³
       melting-point = 1530 °C
@@ -193,7 +193,7 @@
       现实中广泛用于厨具、栏杆、医疗器械和化工容器。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 5 Mohs (≈70-90 HRB，无法以 HRC 计量)
       density = 8.0 g/cm³
       melting-point = 1450 °C

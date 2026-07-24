@@ -7,7 +7,7 @@
     精金相较秘银价格更为可及，且相比秘银更容易制成合金，在普通金属中加入少许即可大幅提升性能。
   </summary>
 
-  <properties group="physical" style="ini">
+  <properties group="material.properties.physical" style="ini">
     hardness = 10 Mohs
     density = 6.5 g/cm³
     melting-point = 2300 °C

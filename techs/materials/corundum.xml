@@ -5,7 +5,7 @@
     它常用于制造切削工具、耐火材料以及宝石。
   </summary>
 
-  <properties group="physical" style="ini">
+  <properties group="material.properties.physical" style="ini">
     hardness = 9 Mohs
     density = 3.98 g/cm³
     melting-point = 2050 °C

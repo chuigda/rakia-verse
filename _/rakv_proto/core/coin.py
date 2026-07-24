@@ -4,12 +4,6 @@ from __future__ import annotations
 class Coin:
     """
     王国币 (Kingdom Penny): 1GP = 12SP, 1SP = 20CP, 1GP = 240CP。
-
-    Attributes:
-        gp: 金币部分。
-        sp: 银币部分。
-        cp: 铜币部分。
-        total_cp: 以铜币计的总价值。
     """
 
     __slots__ = ("_cp",)

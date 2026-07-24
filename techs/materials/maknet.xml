@@ -5,7 +5,7 @@
     玼石被广泛应用于奥术研究、魔术物品和附魔物品，推动着文明的发展和技术的进步。
   </summary>
 
-  <properties group="physical" style="ini">
+  <properties group="material.properties.physical" style="ini">
     hardness = 6.5 Mohs
     density = 6.8 g/cm³
     melting-point = 1420 °C

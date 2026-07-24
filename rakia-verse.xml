@@ -160,6 +160,7 @@
     <xi:include href="techs/aspects/communication.xml" comment="通讯" />
     <xi:include href="techs/aspects/alchemy.xml" comment="炼金术" />
 
+    <xi:include href="techs/material-properties.xml" comment="材料属性" />
     <materials>
       <xi:include href="techs/materials/corundum.xml" comment="刚玉" />
       <xi:include href="techs/materials/maknet.xml" comment="玼石" />

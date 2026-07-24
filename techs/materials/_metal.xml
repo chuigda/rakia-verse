@@ -10,7 +10,7 @@
       现代仍用于船舶螺旋桨、轴承和铃铛。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 3.5 Mohs (≈80-120 HB，冷锻后可达 200 HB)
       density = 8.8 g/cm³
       melting-point = 1000 °C
@@ -30,7 +30,7 @@
       剑脊则用低锡青铜保证韧性，形成"复合剑"结构。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 5 Mohs (≈250-350 HB)
       density = 8.6 g/cm³
       melting-point = 900 °C
@@ -50,7 +50,7 @@
       现代 HEMA（历史欧洲武术）训练剑常用铝青铜制作。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 4.5 Mohs (≈170-220 HB)
       density = 7.6 g/cm³
       melting-point = 1040 °C
@@ -72,7 +72,7 @@
       常用于航空、医疗植入物和化工设备，偶见于高端 EDC 刀具框架。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 6 Mohs (≈80 HRB)
       density = 4.51 g/cm³
       melting-point = 1668 °C
@@ -92,7 +92,7 @@
       航空发动机叶片、飞机结构件和高端假肢的标准材料。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 6.5 Mohs (≈36 HRC)
       density = 4.43 g/cm³
       melting-point = 1660 °C
@@ -114,7 +114,7 @@
       作为参照：这是"轻但完全没有强度"的极端。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 2.5 Mohs (≈20-30 HB)
       density = 2.7 g/cm³
       melting-point = 660 °C
@@ -135,7 +135,7 @@
       代价是耐蚀性差于纯铝，且疲劳性能不如钛合金。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 5.5 Mohs (≈87 HRB)
       density = 2.81 g/cm³
       melting-point = 635 °C
@@ -155,7 +155,7 @@
       自行车车架、船舶结构、建筑型材和 DIY 加工的首选铝材。
     </summary>
 
-    <properties group="physical" style="ini">
+    <properties group="material.properties.physical" style="ini">
       hardness = 5 Mohs (≈60 HRB)
       density = 2.7 g/cm³
       melting-point = 650 °C

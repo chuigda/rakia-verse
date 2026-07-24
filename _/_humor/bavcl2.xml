@@ -19,7 +19,7 @@
     哲学家倾向于将其视作材料学终于追上哲学的证据，神学家则普遍建议不要继续追问。
   </summary>
 
-  <properties group="physical" style="ini">
+  <properties group="material.properties.physical" style="ini">
     existence = 已证实 / 已证伪
     state-of-matter = 固态，但从未占据任何容器
     density = 7.41 g/cm³（样品质量为 0 g，体积亦为 0 cm³）

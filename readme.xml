@@ -25,12 +25,6 @@
       适度创作益脑，沉溺幻想伤身。合理安排时间，享受健康生活。
     </content-advisory>
 
-    <content-advisory>
-      本仓库可能含有以下要素：
-      神人格式，狂热传教，本质主义，刻板印象，
-      现代解构，网络烂梗，微操前线，挖坑不填。
-    </content-advisory>
-
     <license pattern="*.xml,*.png,*.svg" href="LICENSE">CC-BY-NC-SA-4.0</license>
     <license pattern="*.py,*.json" href="docs/LICENSE-BSD3">BSD-3-Clause</license>
     <license pattern="*" fallback="fallback">All rights reserved</license>
